@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="653.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="refleksja.v2.FXMLDocumentController">
+    <children>
+        <Button fx:id="createButton" layoutX="326.0" layoutY="35.0" onAction="#create" prefHeight="53.0" prefWidth="117.0" text="Create Object" />
+      <Button fx:id="saveButton" disable="true" layoutX="468.0" layoutY="35.0" mnemonicParsing="false" onAction="#save" prefHeight="53.0" prefWidth="117.0" text="Save Changes" />
+      <VBox fx:id="VBox" layoutX="31.0" layoutY="100.0" prefHeight="351.0" prefWidth="554.0" />
+      <TextField fx:id="textField" layoutX="30.0" layoutY="42.0" prefHeight="39.0" prefWidth="263.0" promptText="like refleksja.Song ect." />
+      <TextArea fx:id="logArea" editable="false" layoutX="31.0" layoutY="460.0" prefHeight="179.0" prefWidth="566.0" />
+    </children>
+</AnchorPane>
